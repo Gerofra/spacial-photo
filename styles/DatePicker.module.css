@@ -29,14 +29,15 @@
 
 
 @media (max-width: 600px) {
+
     .inputForm{ 
+        width: 100%;
         margin: 40px;
     }
     
     .inputDate {
         font-size: 2.6em;
         padding: 10px 16px;
-
     }
     
     .inputButton { 

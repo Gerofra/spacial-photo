@@ -24,6 +24,8 @@ export default function Home() {
 
         <div id="photoBox" className={styles.photoCard}>
           <img id="photoBoxImg" className={styles.photoCardImg} src=""></img>
+          <h4 id="photoBoxTitle" className={styles.photoCardTitle}></h4>
+          <p id="photoBoxDesc" className={styles.photoCardDesc}></p>
         </div>
 
       </main>
