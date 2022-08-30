@@ -1,0 +1,40 @@
+.loaderBox {
+    display: unset;
+
+    position: fixed; /* Stay in place */
+    z-index: 12; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+}
+
+.loaderBox span {   
+    font-size: 4em;
+}
+
+
+.loaderContainer {
+    position: relative;
+    margin: auto;
+    top: 40%;
+    width: 0px;
+    height: 0px;
+
+    animation-name: roti;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+  }
+  
+
+@keyframes roti {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}

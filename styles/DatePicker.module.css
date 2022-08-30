@@ -1,0 +1,28 @@
+.inputForm{ 
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDate {
+    font-size: 3em;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 200;
+    border-width: 2px;
+    border-style: outset;
+    border-color: var(--gray);
+}
+
+.inputButton { 
+    margin-top: 20px;
+    font-size: 2em;
+    border-radius: 8px;
+    padding: 10px 16px;
+    transition: 0.2s;
+}
+
+.inputButton:hover, .inputDate:hover {
+    outline: 5px solid var(--gray);
+    transition: 0.2s;
+}
