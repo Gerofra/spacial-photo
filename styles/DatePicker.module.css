@@ -1,7 +1,8 @@
 .inputForm{ 
-    margin: 50px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .inputDate {
@@ -36,14 +37,14 @@
     }
     
     .inputDate {
-        font-size: 2.6em;
-        padding: 10px 16px;
+        width: 100%;
+        font-size: 2.5em;
+        padding: 8px 10px;
     }
     
     .inputButton { 
         margin-top: 20px;
         font-size: 1.7em;
-        border-radius: 8px;
         padding: 7px 16px;
     }
 }
