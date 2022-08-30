@@ -19,7 +19,7 @@ export async function getPhoto({date}) {
         let photoBoxTitle = document.getElementById("photoBoxTitle")
         let photoBoxDesc = document.getElementById("photoBoxDesc")
 
-        photoBoxImg.src = data.hdurl
+        photoBoxImg.src = data.url
         photoBoxTitle.innerText = data.title + ' (' + data.date + ')';
         photoBox.style.display = 'unset'
         console.log(data)
