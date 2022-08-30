@@ -4,7 +4,7 @@ import Link from 'next/link'
 import DatePicker from './components/datepicker'
 import styles from '../styles/Home.module.css'
 import Loader from './components/loader.js'
-import Emoji from './components/Emoji.js'
+import Emoji from './components/emoji.js'
 
 export default function Home() {
   return (

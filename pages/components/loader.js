@@ -1,5 +1,5 @@
 import loaderstyles from '../../styles/Loader.module.css'
-import Emoji from '../components/Emoji.js'
+import Emoji from '../components/emoji.js'
 
 export default function Loader() {
 

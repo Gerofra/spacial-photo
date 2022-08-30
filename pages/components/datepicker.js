@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getPhoto } from '/pages/api/photo.js'
 import datestyles from '../../styles/DatePicker.module.css'
-import Emoji from '../components/Emoji.js'
+import Emoji from '../components/emoji.js'
 
 export default function DatePicker() {
 
