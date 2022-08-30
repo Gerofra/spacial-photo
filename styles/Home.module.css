@@ -124,12 +124,43 @@
   margin-left: 0.5rem;
 }
 
+
+
+
+
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .container {
+    padding: 0 10px;
   }
+  
+  .main {
+    padding: 40px 10px;
+  }
+
+  
+  
+  .code {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  
+  
+  .photoCard {
+    display: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .photoCardImg {
+    width: 100%;
+    height: auto;
+  }
+
+
 }
+
+
+
 
 @media (prefers-color-scheme: light) {
   .card,

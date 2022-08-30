@@ -1,5 +1,5 @@
 .loaderBox {
-    display: unset;
+    display: none;
 
     position: fixed; /* Stay in place */
     z-index: 12; /* Sit on top */
