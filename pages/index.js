@@ -17,7 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h2 className={styles.title}>
-          Choose your <span className={styles.spacial}>spacial</span> date<Emoji symbol="🌌" label="milky way"/>
+          Choose your <span className={styles.spacial}>spacial</span> date <Emoji symbol="🌌" label="milky way"/>
         </h2>
         <DatePicker></DatePicker>
         <Loader></Loader>
