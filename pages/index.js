@@ -24,16 +24,22 @@ export default function Home() {
 
         <div id="photoBox" className={styles.photoCard}>
           <img id="photoBoxImg" className={styles.photoCardImg} src=""></img>
-          <h4 id="photoBoxTitle" className={styles.photoCardTitle}></h4>
-          <p id="photoBoxDesc" className={styles.photoCardDesc}></p>
+          <div className={styles.photoDesc}>
+            <p id="photoBoxDate" className={styles.photoCardDate}></p>
+            <p id="photoBoxTitle" className={styles.photoCardTitle}></p>
+          </div>
         </div>
 
+        <code className={styles.code}>
+          We are using NASA Astronomy Picture of the Day API. For each calendar day there is a different image or photograph of our fascinating universe, along with a brief explanation written by a professional astronomer.
+          <a href="https://apod.nasa.gov/apod/" target="_blank">(Click here to read more)</a>
+        </code>
+
       </main>
-        <p>
-          <code className={styles.code}><Link href="/contact">Gerónimo Pericoli</Link></code>
-        </p>
+
       <footer className={styles.footer}>
 
+        <code className={styles.code}><Link href="/contact">Gerónimo Pericoli</Link></code>
 
       </footer>
     </div>

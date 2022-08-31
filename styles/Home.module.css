@@ -14,10 +14,9 @@
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  padding: 20px 0;
   border-top: 1px solid #eaeaea;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -55,10 +54,12 @@
 
 
 .code {
-  background: #fafafa;
+  background: var(--light-light-gray);
+  color: var(--light-gray);
   border-radius: 5px;
   padding: 0.75rem;
-  font-size: 1.1rem;
+  max-width: 500px;
+  font-size: 1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -73,7 +74,12 @@
 
 .photoCard {
   display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
   margin: 1rem;
+  margin-bottom: 60px;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -83,6 +89,14 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+.photoDesc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+}
+
 .photoCardImg {
   width: 600px;
   height: 400px;
@@ -90,10 +104,20 @@
 }
 
 .photoCardTitle {
+  margin: 4px 0;
   font-size: 1.4em;
   font-weight: 600;
 }
 
+.photoCardDate {
+  flex-shrink: 0;
+  margin: 4px 0;
+  background: var(--light-light-gray);
+  color: var(--light-gray);
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 0.8em;
+}
 
 
 
@@ -119,6 +143,7 @@
   .photoCard {
     display: none;
     margin: 0;
+    margin-bottom: 60px;
     padding: 10px;
   }
   
@@ -128,7 +153,7 @@
   }
 
   .photoCardTitle {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
   }
 

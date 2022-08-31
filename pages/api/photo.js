@@ -17,11 +17,12 @@ export async function getPhoto({date}) {
         let photoBox = document.getElementById("photoBox")
         let photoBoxImg = document.getElementById("photoBoxImg")
         let photoBoxTitle = document.getElementById("photoBoxTitle")
-        let photoBoxDesc = document.getElementById("photoBoxDesc")
+        let photoBoxDate = document.getElementById("photoBoxDate")
 
         photoBoxImg.src = data.url
-        photoBoxTitle.innerText = data.title + ' (' + data.date + ')';
-        photoBox.style.display = 'unset'
+        photoBoxTitle.innerText = data.title
+        photoBoxDate.innerText = data.date
+        photoBox.style.display = 'flex'
         console.log(data)
 
         loader.style.display = 'none'
