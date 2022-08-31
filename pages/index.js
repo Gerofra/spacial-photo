@@ -32,7 +32,7 @@ export default function Home() {
 
         <code className={styles.code}>
           We are using NASA Astronomy Picture of the Day API. For each calendar day there is a different image or photograph of our fascinating universe, along with a brief explanation written by a professional astronomer.
-          <a href="https://apod.nasa.gov/apod/" target="_blank">(Click here to read more)</a>
+          <a href="https://apod.nasa.gov/apod/" rel="noreferrer" target="_blank">(Click here to read more)</a>
         </code>
 
       </main>
